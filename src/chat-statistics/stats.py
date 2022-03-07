@@ -45,7 +45,6 @@ class ChatStatistics:
 
         logger.info(f"Saving Word Cloud To {output_dir}")
         wordcloud.to_file(str(output_dir / 'result.png'))
-        
 
 
 if __name__ == '__main__':
